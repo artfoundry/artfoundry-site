@@ -45,6 +45,7 @@ body { margin: 0; padding: 0; height: 100%; }
 #artpage { width: 100%; }
 
 .ui-page { background: url("../images/bg_main.jpg") #00004D 0 10em no-repeat; background-size: contain; }
+.ui-page#landing { background-image: none; }
 .ui-panel-page-container-themed .ui-page-active { background: url("../images/bg_main.jpg") #00004D 0 10em no-repeat; background-size: contain; }
 .ui-header .ui-title { font-size: 1.5rem; }
 h2 { text-align: center; }
