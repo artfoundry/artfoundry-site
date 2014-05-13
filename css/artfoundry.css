@@ -37,7 +37,7 @@ body { margin: 0; padding: 0; height: 100%; }
 .block-center div:first-child > a { position: relative; right: -.7em; }
 .block-center#lcd div:first-child > a { position: relative; right: -3.9em; }
 .block-center#art div:first-child > a { position: relative; right: -2.3em; }
-.bg-colored { padding: 2em; overflow: auto; background-color: #252525; }
+.bg-colored { padding: 2em; overflow: hidden; background-color: #252525; }
 .bg-colored:nth-child(2n) { background-color: #333; }
 
 #gamespage { width: 100%; }
