@@ -4,7 +4,7 @@ body { margin: 0; padding: 0; height: 100%; }
 ::-webkit-scrollbar { display: none; }
 
 #icon-container {
-    position: fixed;
+    position: absolute;
     top: 15%;
     left: 25%;
     max-width: 100%;
@@ -12,7 +12,7 @@ body { margin: 0; padding: 0; height: 100%; }
 }
 .img-landing {
     z-index: 0;
-    position: fixed;
+    position: absolute;
     top: 15%;
     left: 0;
     max-width: 100%;
@@ -21,9 +21,8 @@ body { margin: 0; padding: 0; height: 100%; }
     z-index: 2;
 }
 .img-landing#img-arttitle {
+    left: 10%;
     z-index: 3;
-    top: 15%;
-    left: 15%;
 }
 #img-logo-large { position: absolute; max-width: 100%; height: auto; margin: auto;}
 #img-logo { margin-top: 2em; margin-right: -5%;}
@@ -54,7 +53,7 @@ a { text-decoration: none; }
 
 .buttons { display: none; position: relative; z-index: 1;}
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 600px) and (orientation: portrait) {
     #icon-container {
         position: fixed;
         top: 15%;
@@ -72,15 +71,15 @@ a { text-decoration: none; }
     #img-logo { min-width: 12em; margin-right: -28%; margin-top: 3em; }
     #img-games { margin-left: 18%; }
     #img-webapps { margin-left: 15%; }
-    .img-right { max-width: 85%; height: auto; }
-    .img-left { max-width: 85%; height: auto; }
+    .img-right { float: none; max-width: 85%; height: auto; }
+    .img-left { float: none; max-width: 85%; height: auto; }
     .bg-colored { padding: .5em; }
     .block-center div:first-child > a { right: 0; }
     .block-center#lcd div:first-child > a { right: 0; }
     .block-center#art div:first-child > a { right: 0; }
 }
 
-@media all and (min-width: 641px) and (max-width: 1024px) {
+@media all and (min-width: 601px) and (max-width: 1024px) {
     .img-landing#img-arttitle {
         left: 0;
     }
@@ -88,4 +87,5 @@ a { text-decoration: none; }
         top: 9%;
         left: 17%;
     }
+
 }

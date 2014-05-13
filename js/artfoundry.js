@@ -1,8 +1,7 @@
 function run_animation() {
     $("#img-arttitle").delay(1000).fadeOut(1000);
-    $("#img-anvil").delay(1500).fadeOut(1500, function() {
-        $(".buttons").fadeIn(1000);
-    });
+    $("#img-anvil").delay(1500).fadeOut(1500);
+    $(".buttons").delay(3000).fadeIn(1000);
     $(document).on("click", function(){
        $("#img-arttitle, #img-anvil, .buttons").finish();
     });
