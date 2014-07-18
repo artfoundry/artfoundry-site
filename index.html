@@ -3,7 +3,7 @@
 <head>
     <title>Artfoundry</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
     <link href="css/jquery.mobile-1.4.2.min.css" rel="stylesheet" type="text/css" />
     <link href="css/artfoundry.css" rel="stylesheet" type="text/css" />
@@ -20,21 +20,21 @@
 
 <!--Landing page -->
 <div data-role="page" id="landing">
-    <img src="images/artfoundry_title.png" id="img-arttitle" class="img-landing img-center">
-    <img src="images/anvil.jpg" id="img-anvil" class="img-landing img-center">
-    <img src="images/bg_main.jpg" class="img-landing img-center">
+    <img src="images/artfoundry_title.png" id="img-arttitle" class="img-landing img-center" alt="Artfoundry Ttile" />
+    <img src="images/anvil.jpg" id="img-anvil" class="img-landing img-center" alt="Anvil" />
+    <img src="images/bg_main.jpg" class="img-landing img-center" alt="background" />
     <div role="main" id="icon-container" class="ui-grid-a">
         <div class="ui-block-a">
-            <a href="#infopage"><img id="img-logo" class="buttons img-right" src="images/logo_sml.png" /></a>
+            <a href="#infopage"><img id="img-logo" class="buttons img-right" src="images/logo_sml.png" alt="Artfoundry logo" /></a>
         </div>
         <div class="ui-block-b">
-            <a href="#gamespage"><img id="img-games" class="buttons img-left" src="images/joystick.png" /></a>
+            <a href="#gamespage"><img id="img-games" class="buttons img-left" src="images/joystick.png" alt="Games" /></a>
         </div>
         <div class="ui-block-a">
-            <a href="#artpage"><img id="img-art" class="buttons img-right" src="images/brush.png" /></a>
+            <a href="#artpage"><img id="img-art" class="buttons img-right" src="images/brush.png" alt="Art" /></a>
         </div>
         <div class="ui-block-b">
-            <a href="#webappspage"><img id="img-webapps" class="buttons img-left" src="images/webapp.png" /></a>
+            <a href="#webappspage"><img id="img-webapps" class="buttons img-left" src="images/webapp.png" alt="Web apps" /></a>
         </div>
     </div><!-- icon-container -->
 </div><!-- Landing page -->
@@ -43,10 +43,10 @@
 <div data-role="page" id="infopage" data-theme="b">
     <div data-role="header" data-position="fixed">
         <h1>Artfoundry</h1>
-        <a href="#nav-panel" data-icon="bars" data-iconpos="notext"></a>
+        <a href="#nav-panel-info" data-icon="bars" data-iconpos="notext"></a>
     </div>
     <div role="main" class="bg-colored">
-        <img class="img-left" src="images/anvil.png">
+        <img class="img-left" src="images/anvil.png" alt="anvil" />
         <p>
             Artfoundry is a place where creativity is kindeled, stoked, forged, and polished in order to produce an exceptional piece of form and function.  Our primary focus for this creativity is mobile, web, and desktop games.</p>
         <p>
@@ -58,16 +58,16 @@
         <p>
             If you have any questions, needs, desires, comments, or even a good joke, send them <a href="mailto:info@artfoundry.com">by email.</a></p>
         <p>
-            Are you LinkedIn?  Connect to David through his <a href="http://www.linkedin.com/in/davidsmarkowitz"><img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.gif" width="80" height="15" border="0" alt="profile on LinkedIn"></a></p>
+            Are you LinkedIn?  Connect to David through his <a href="http://www.linkedin.com/in/davidsmarkowitz"><img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.gif" width="80" height="15" alt="profile on LinkedIn" /></a></p>
     </div>
 
-    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel">
+    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel-info">
         <ul data-role="listview">
             <li data-icon="home"><a href="#landing" data-rel="close">Return home</a></li>
-            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" /></a></li>
-            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" /></a></li>
-            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" /></a></li>
-            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" /></a></li>
+            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" alt="Artfoundry info" /></a></li>
+            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" alt="Games" /></a></li>
+            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" alt="Art" /></a></li>
+            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" alt="Web apps" /></a></li>
         </ul>
     </div><!-- /panel -->
 </div><!-- Info page -->
@@ -76,18 +76,18 @@
 <div data-role="page" id="gamespage" data-theme="b">
     <div data-role="header" data-position="fixed">
         <h1>Games</h1>
-        <a href="#nav-panel" data-icon="bars" data-iconpos="notext"></a>
+        <a href="#nav-panel-games" data-icon="bars" data-iconpos="notext"></a>
     </div>
     <div role="main" class="bg-colored">
-        <a href="http://www.lcddreams.com/" target="_blank"><img class="img-center" src="images/games/lcddreams_logo_trans_med.png" /></a>
+        <a href="http://www.lcddreams.com/" target="_blank"><img class="img-center" src="images/games/lcddreams_logo_trans_med.png" alt="LCD Dreams" /></a>
         <div class="block-center popup-gallery ui-grid-a ui-responsive" id="lcd">
             <div class="ui-block-a">
-                <a href="images/games/lcddreams/emo_menu.jpg" title="Evil Master Overlord: Menu"><img src="images/games/lcddreams/emo_menu.jpg" width="175" height="100"></a>
-                <a href="images/games/lcddreams/skeleton_color02.jpg" title="Evil Master Overlord: Skeleton concept"><img src="images/games/lcddreams/skeleton_color02.jpg" width="75" height="100"></a>
+                <a href="images/games/lcddreams/emo_menu.jpg" title="Evil Master Overlord: Menu"><img src="images/games/lcddreams/emo_menu.jpg" width="175" height="100" alt="Evil Master Overlord screenshot" /></a>
+                <a href="images/games/lcddreams/skeleton_color02.jpg" title="Evil Master Overlord: Skeleton concept"><img src="images/games/lcddreams/skeleton_color02.jpg" width="75" height="100" alt="EMO Skeleton concept" /></a>
             </div>
             <div class="ui-block-b">
-                <a href="images/games/lcddreams/forsakenbossfinal_web.jpg" title=""><img src="images/games/lcddreams/forsakenbossfinal_web.jpg" width="75" height="100"></a>
-                <a href="images/games/lcddreams/TheSanctuary_Final_sml.jpg" title=""><img src="images/games/lcddreams/TheSanctuary_Final_sml.jpg" width="175" height="100"></a>
+                <a href="images/games/lcddreams/forsakenbossfinal_web.jpg" title=""><img src="images/games/lcddreams/forsakenbossfinal_web.jpg" width="75" height="100" alt="Banished Forsaken boss concept" /></a>
+                <a href="images/games/lcddreams/TheSanctuary_Final_sml.jpg" title=""><img src="images/games/lcddreams/TheSanctuary_Final_sml.jpg" width="175" height="100" alt="Banished Sanctuary concept" /></a>
             </div>
         </div>
         <p>
@@ -95,15 +95,15 @@
         </p>
     </div>
     <div role="main" class="bg-colored">
-        <img class="img-center" src="images/games/betrayal/bet-title.png" />
+        <img class="img-center" src="images/games/betrayal/bet-title.png" alt="Betrayal title" />
         <div class="block-center popup-gallery ui-grid-a ui-responsive">
             <div class="ui-block-a">
-                <a href="images/games/betrayal/bet-portal.jpg" title="Betrayal: Portal"><img src="images/games/betrayal/bet-portal.jpg" width="150" height="75"></a>
-                <a href="images/games/betrayal/bet-crypt.jpg" title="Betrayal: Crypt"><img src="images/games/betrayal/bet-crypt.jpg" width="150" height="75"></a>
+                <a href="images/games/betrayal/bet-portal.jpg" title="Betrayal: Portal"><img src="images/games/betrayal/bet-portal.jpg" width="150" height="75" alt="Betrayal portal screenshot" /></a>
+                <a href="images/games/betrayal/bet-crypt.jpg" title="Betrayal: Crypt"><img src="images/games/betrayal/bet-crypt.jpg" width="150" height="75" alt="Betrayal crypt screenshot" /></a>
             </div>
             <div class="ui-block-b">
-                <a href="images/games/betrayal/bet-forest.jpg" title="Betrayal: Forest"><img src="images/games/betrayal/bet-forest.jpg" width="150" height="75"></a>
-                <a href="images/games/betrayal/bet-inn.jpg" title="Betrayal: Inn"><img src="images/games/betrayal/bet-inn.jpg" width="150" height="75"></a>
+                <a href="images/games/betrayal/bet-forest.jpg" title="Betrayal: Forest"><img src="images/games/betrayal/bet-forest.jpg" width="150" height="75" alt="Betrayal forest screenshot" /></a>
+                <a href="images/games/betrayal/bet-inn.jpg" title="Betrayal: Inn"><img src="images/games/betrayal/bet-inn.jpg" width="150" height="75" alt="Betrayal inn screensho" /></a>
             </div>
         </div>
         <p>
@@ -129,9 +129,6 @@
             <a href="http://www.artfoundry.com/Betrayal.zip">Betrayal 1.0</a> (102MB)
         </p>
         <p>
-            Betrayal is also available on <a href="http://nwvault.ign.com/View.php?view=NWN2ModulesEnglish.Detail&id=479" target="_blank">Neverwinter Nights 2 Vault</a>
-        </p>
-        <p>
             For installation instructions, please read the Instructions text file that comes with the module.
         </p>
         <b>Requirements:</b>
@@ -141,10 +138,10 @@
         </ul>
     </div> <!-- bg-bet -->
     <div role="main" class="bg-colored">
-        <img class="img-center" src="images/games/any_logo.png" />
+        <img class="img-center" src="images/games/any_logo.png" alt="Any title" />
         <i>A game of strategy that anyone can learn and play nearly anywhere.</i>
         <div class="popup-image">
-            <a href="images/games/any_screen.gif" title="Any"><img class="img-right" src="images/games/any_screen.gif" width="300" /></a>
+            <a href="images/games/any_screen.gif" title="Any"><img class="img-right" src="images/games/any_screen.gif" width="300" alt="Any screenshot" /></a>
         </div>
         <p>
             Any was originally designed to be a simple table-top style turn-based strategy game that anyone could play anywhere (thus the name of the game).  Players could use pennies, m+m's, dice, even pencil and paper. The object of the game is to reduce the number of your opponent's base units to 0. If you like Stratego and/or Magic The Gathering, you may like this game as well.</p>
@@ -161,7 +158,7 @@
                     <a href="http://www.artfoundry.com/Any_pc.zip">Windows</a></p>
             </div>
             <div class="ui-block-b">
-                <a href="http://mac.softpedia.com/progClean/Any-Clean-32783.html" title="http://mac.softpedia.com/progClean/Any-Clean-32783.html"><img class="img-right" src="http://mac.softpedia.com/base_img/softpedia_clean_award_f.gif"></a>
+                <a href="http://mac.softpedia.com/progClean/Any-Clean-32783.html" title="http://mac.softpedia.com/progClean/Any-Clean-32783.html"><img class="img-right" src="http://mac.softpedia.com/base_img/softpedia_clean_award_f.gif" alt="Softpedia" /></a>
             </div>
         </div>
         <b>Requirements:</b>
@@ -172,13 +169,13 @@
         </ul>
     </div> <!-- main -->
 
-    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel">
+    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel-games">
         <ul data-role="listview">
             <li data-icon="home"><a href="#landing" data-rel="close">Return home</a></li>
-            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" /></a></li>
-            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" /></a></li>
-            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" /></a></li>
-            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" /></a></li>
+            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" alt="Artfoundry info" /></a></li>
+            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" alt="Games" /></a></li>
+            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" alt="Art" /></a></li>
+            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" alt="Web apps" /></a></li>
         </ul>
     </div><!-- /panel -->
 </div> <!-- Games Page -->
@@ -187,19 +184,19 @@
 <div data-role="page" id="artpage" data-theme="b">
     <div data-role="header" data-position="fixed">
         <h1>Portfolio</h1>
-        <a href="#nav-panel" data-icon="bars" data-iconpos="notext"></a>
+        <a href="#nav-panel-art" data-icon="bars" data-iconpos="notext"></a>
     </div>
     <div role="main" class="bg-colored">
         <p>
             <b>Fine/digital art:</b></p>
         <div class="popup-gallery ui-grid-a ui-responsive block-center" id="art">
             <div class="ui-block-a">
-                <a href="images/art/bestSisters.jpg" title="Best Sisters (charcoal)"><img src="images/art/bestSisters.jpg" width="175" height="125"></a>
-                <a href="images/art/elysia.jpg" title="Elysia (Photoshop)"><img src="images/art/elysia.jpg" width="100" height="125"></a>
+                <a href="images/art/bestSisters.jpg" title="Best Sisters (charcoal)"><img src="images/art/bestSisters.jpg" width="175" height="125" alt="Best Sisters drawing" /></a>
+                <a href="images/art/elysia.jpg" title="Elysia (Photoshop)"><img src="images/art/elysia.jpg" width="100" height="125" alt="Elysia painting" /></a>
             </div>
             <div class="ui-block-b">
-                <a href="images/art/phildel.png" title="Phildel (ArtStudio on iPad)"><img src="images/art/phildel.png" width="125" height="125"></a>
-                <a href="images/art/carmel_sunset.jpg" title="Carmel Sunset (Canon T2i)"><img src="images/art/carmel_sunset.jpg" width="175" height="125"></a>
+                <a href="images/art/phildel.png" title="Phildel (ArtStudio on iPad)"><img src="images/art/phildel.png" width="125" height="125" alt="Phildel drawing" /></a>
+                <a href="images/art/carmel_sunset.jpg" title="Carmel Sunset (Canon T2i)"><img src="images/art/carmel_sunset.jpg" width="175" height="125" alt="Carmel sunset photo" /></a>
             </div>
         </div>
         <p>
@@ -209,13 +206,13 @@
             Available on <a href="https://itunes.apple.com/us/album/smooth-sailing-single/id602729152" target="_blank">iTunes</a>, <a href="http://www.tunecore.com/music/davidmarkowitz" target="_blank">Tunecore</a>, and <a href="http://www.jango.com/music/David+Markowitz" target="_blank">Jango</a>.</p>
     </div>
 
-    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel">
+    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel-art">
         <ul data-role="listview">
             <li data-icon="home"><a href="#landing" data-rel="close">Return home</a></li>
-            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" /></a></li>
-            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" /></a></li>
-            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" /></a></li>
-            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" /></a></li>
+            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" alt="Artfoundry info" /></a></li>
+            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" alt="Games" /></a></li>
+            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" alt="Art" /></a></li>
+            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" alt="Web apps" /></a></li>
         </ul>
     </div><!-- /panel -->
 </div><!-- Art page -->
@@ -224,12 +221,12 @@
 <div data-role="page" id="webappspage" data-theme="b">
     <div data-role="header" data-position="fixed">
         <h1>Web Apps</h1>
-        <a href="#nav-panel" data-icon="bars" data-iconpos="notext"></a>
+        <a href="#nav-panel-webapps" data-icon="bars" data-iconpos="notext"></a>
     </div>
     <div role="main" class="bg-colored">
-        <img class="img-center" src="images/webapps/step-logo.png" width="600px" />
+        <img class="img-center" src="images/webapps/step-logo.png" width="600" alt="Step Up The Music logo" />
         <div class="popup-image">
-            <a href="images/webapps/stepup.jpg" title="Step Up The Music"><img class="img-right" src="images/webapps/stepup.jpg" width="300" /></a>
+            <a href="images/webapps/stepup.jpg" title="Step Up The Music"><img class="img-right" src="images/webapps/stepup.jpg" width="300" alt="Step Up The Music screenshot" /></a>
         </div>
         <div>
             <p>
@@ -247,7 +244,7 @@
     <div role="main" class="bg-colored">
         <b>Weeby Chattin'</b>
         <div class="popup-image">
-            <a href="images/webapps/weebychattin.png" title="Weeby Chattin'"><img class="img-right" src="images/webapps/weebychattin.png" width="300" /></a>
+            <a href="images/webapps/weebychattin.png" title="Weeby Chattin'"><img class="img-right" src="images/webapps/weebychattin.png" width="300" alt="Weeby Chattin screenshot" /></a>
         </div>
         <div>
             <p>
@@ -263,13 +260,13 @@
         </div>
     </div>
 
-    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel">
+    <div data-role="panel" data-position-fixed="true" data-display="push" data-theme="b" id="nav-panel-webapps">
         <ul data-role="listview">
             <li data-icon="home"><a href="#landing" data-rel="close">Return home</a></li>
-            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" /></a></li>
-            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" /></a></li>
-            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" /></a></li>
-            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" /></a></li>
+            <li><a href="#infopage"><img class="navbutton" style="margin-top: 1em;" src="images/logo_sml.png" alt="Artfoundry info" /></a></li>
+            <li><a href="#gamespage"><img class="navbutton" src="images/joystick.png" alt="Games" /></a></li>
+            <li><a href="#artpage"><img class="navbutton" src="images/brush.png" alt="Art" /></a></li>
+            <li><a href="#webappspage"><img class="navbutton" src="images/webapp.png" alt="Web apps" /></a></li>
         </ul>
     </div><!-- /panel -->
 </div><!-- Web apps page -->
