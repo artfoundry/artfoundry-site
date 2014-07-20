@@ -51,7 +51,24 @@ h2 { text-align: center; }
 b { color: gray; }
 a { text-decoration: none; }
 
-.buttons { display: none; position: relative; z-index: 1;}
+.buttons { display: none; position: relative; z-index: 1; opacity: .7; }
+.buttons:hover { opacity: 1; }
+.menu {
+    -webkit-animation: fadeInOut 1s ease-in-out infinite alternate;
+    -webkit-animation-play-state: running;
+    animation: fadeInOut 1s ease-in-out infinite alternate;
+    animation-play-state: running;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInOut {
+    from {opacity: 1;}
+    to {opacity: .3;}
+}
+/* Standard syntax */
+@keyframes fadeInOut {
+    from {opacity: 1;}
+    to {opacity: .3;}
+}
 
 @media all and (max-width: 600px) and (orientation: portrait) {
     #icon-container {
